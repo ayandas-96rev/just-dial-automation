@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="JustDialTestScenario">
+    <parameter name="baseUrl" value="https://www.justdial.com/" />
+  	<parameter name="location" value="Kolkata" />
+  	<classes>
+  		<class name="com.hackathon.tests.OpenJustDialHomePage" />
+  		<class name="com.hackathon.tests.IdentifyCarWashServices" />
+  		<class name="com.hackathon.tests.ExploreGymSection" />
+  		<class name="com.hackathon.tests.FreeListingPageTest" />
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

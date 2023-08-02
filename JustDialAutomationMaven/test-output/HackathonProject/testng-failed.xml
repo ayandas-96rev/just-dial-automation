@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HackathonProject]">
+  <test name="IdentifyCarWashServices(failed)">
+    <parameter name="baseUrl" value="https://www.justdial.com/"/>
+    <parameter name="location" value="Kolkata"/>
+    <classes>
+      <class name="com.hackathon.tests.ExploreGymSection">
+        <methods>
+          <include name="OpenGymSection"/>
+          <include name="ListAndStoreAllSubmenuItems"/>
+          <include name="NavigateBackToHomePage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hackathon.tests.ExploreGymSection -->
+      <class name="com.hackathon.tests.FreeListingPageTest">
+        <methods>
+          <include name="SubmitFreeListingWithInvalidMobileNumber"/>
+          <include name="OpenFreeListingPage"/>
+        </methods>
+      </class> <!-- com.hackathon.tests.FreeListingPageTest -->
+      <class name="com.hackathon.tests.OpenJustDialHomePage">
+        <methods>
+          <include name="OpenJustdialHomePage" invocation-numbers="0"/>
+          <include name="CloseLoginPopup"/>
+          <include name="selectWebDriver"/>
+        </methods>
+      </class> <!-- com.hackathon.tests.OpenJustDialHomePage -->
+      <class name="com.hackathon.tests.IdentifyCarWashServices">
+        <methods>
+          <include name="NavigateBackToHomePage" invocation-numbers="0"/>
+          <include name="SortSearchResultByRating"/>
+          <include name="IdentifyTopFiveCarWashingService" invocation-numbers="0"/>
+          <include name="SearchForCarWashServices"/>
+          <include name="SelectLocation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hackathon.tests.IdentifyCarWashServices -->
+    </classes>
+  </test> <!-- IdentifyCarWashServices(failed) -->
+</suite> <!-- Failed suite [HackathonProject] -->

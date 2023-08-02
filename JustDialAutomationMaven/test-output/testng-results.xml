@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75706" started-at="2023-07-24T07:48:34Z" finished-at="2023-07-24T07:49:49Z">
+    <groups>
+    </groups>
+    <test name="JustDialTestScenario" duration-ms="75706" started-at="2023-07-24T07:48:34Z" finished-at="2023-07-24T07:49:49Z">
+      <class name="com.hackathon.tests.FreeListingPageTest">
+        <test-method status="PASS" signature="OpenFreeListingPage()[pri:11, instance:com.hackathon.tests.FreeListingPageTest@eec5a4a]" name="OpenFreeListingPage" duration-ms="9726" started-at="2023-07-24T13:19:37Z" finished-at="2023-07-24T13:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFreeListingPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.FreeListingPageTest@eec5a4a]" name="getResult" is-config="true" duration-ms="200" started-at="2023-07-24T13:19:47Z" finished-at="2023-07-24T13:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenFreeListingPage status=SUCCESS method=FreeListingPageTest.OpenFreeListingPage()[pri:11, instance:com.hackathon.tests.FreeListingPageTest@eec5a4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SubmitFreeListingWithInvalidMobileNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.hackathon.tests.FreeListingPageTest@eec5a4a]" name="SubmitFreeListingWithInvalidMobileNumber" duration-ms="2085" started-at="2023-07-24T13:19:47Z" data-provider="freeListingData" finished-at="2023-07-24T13:19:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ayan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Das]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ayan Car Wash Service]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[700B375A5C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitFreeListingWithInvalidMobileNumber -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.FreeListingPageTest@eec5a4a]" name="getResult" is-config="true" duration-ms="218" started-at="2023-07-24T13:19:49Z" finished-at="2023-07-24T13:19:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SubmitFreeListingWithInvalidMobileNumber status=SUCCESS method=FreeListingPageTest.SubmitFreeListingWithInvalidMobileNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:com.hackathon.tests.FreeListingPageTest@eec5a4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.hackathon.tests.FreeListingPageTest -->
+      <class name="com.hackathon.tests.IdentifyCarWashServices">
+        <test-method status="PASS" signature="SelectLocation(java.lang.String)[pri:3, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="SelectLocation" duration-ms="3640" started-at="2023-07-24T13:18:43Z" finished-at="2023-07-24T13:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectLocation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="getResult" is-config="true" duration-ms="448" started-at="2023-07-24T13:18:47Z" finished-at="2023-07-24T13:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectLocation status=SUCCESS method=IdentifyCarWashServices.SelectLocation(java.lang.String)[pri:3, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SearchForCarWashServices()[pri:4, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="SearchForCarWashServices" duration-ms="2477" started-at="2023-07-24T13:18:48Z" finished-at="2023-07-24T13:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchForCarWashServices -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="getResult" is-config="true" duration-ms="319" started-at="2023-07-24T13:18:50Z" finished-at="2023-07-24T13:18:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchForCarWashServices status=SUCCESS method=IdentifyCarWashServices.SearchForCarWashServices()[pri:4, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SortSearchResultByRating()[pri:5, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="SortSearchResultByRating" duration-ms="238" started-at="2023-07-24T13:18:50Z" finished-at="2023-07-24T13:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortSearchResultByRating -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="getResult" is-config="true" duration-ms="479" started-at="2023-07-24T13:18:51Z" finished-at="2023-07-24T13:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SortSearchResultByRating status=SUCCESS method=IdentifyCarWashServices.SortSearchResultByRating()[pri:5, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="IdentifyTopFiveCarWashingService(java.lang.String)[pri:6, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="IdentifyTopFiveCarWashingService" duration-ms="6628" started-at="2023-07-24T13:18:51Z" finished-at="2023-07-24T13:18:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kolkata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IdentifyTopFiveCarWashingService -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="getResult" is-config="true" duration-ms="249" started-at="2023-07-24T13:18:58Z" finished-at="2023-07-24T13:18:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IdentifyTopFiveCarWashingService status=SUCCESS method=IdentifyCarWashServices.IdentifyTopFiveCarWashingService(java.lang.String)[pri:6, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="NavigateBackToHomePage(java.lang.String)[pri:7, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="NavigateBackToHomePage" duration-ms="5462" started-at="2023-07-24T13:18:58Z" finished-at="2023-07-24T13:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.justdial.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateBackToHomePage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="getResult" is-config="true" duration-ms="481" started-at="2023-07-24T13:19:03Z" finished-at="2023-07-24T13:19:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateBackToHomePage status=SUCCESS method=IdentifyCarWashServices.NavigateBackToHomePage(java.lang.String)[pri:7, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.hackathon.tests.IdentifyCarWashServices -->
+      <class name="com.hackathon.tests.OpenJustDialHomePage">
+        <test-method status="PASS" signature="initSuite()[pri:0, instance:com.hackathon.tests.OpenJustDialHomePage@67784306]" name="initSuite" is-config="true" duration-ms="10683" started-at="2023-07-24T13:18:23Z" finished-at="2023-07-24T13:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method status="PASS" signature="OpenJustdialHomePage(java.lang.String)[pri:1, instance:com.hackathon.tests.OpenJustDialHomePage@67784306]" name="OpenJustdialHomePage" duration-ms="4909" started-at="2023-07-24T13:18:34Z" finished-at="2023-07-24T13:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.justdial.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenJustdialHomePage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.OpenJustDialHomePage@67784306]" name="getResult" is-config="true" duration-ms="625" started-at="2023-07-24T13:18:39Z" finished-at="2023-07-24T13:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenJustdialHomePage status=SUCCESS method=OpenJustDialHomePage.OpenJustdialHomePage(java.lang.String)[pri:1, instance:com.hackathon.tests.OpenJustDialHomePage@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CloseLoginPopup()[pri:2, instance:com.hackathon.tests.OpenJustDialHomePage@67784306]" name="CloseLoginPopup" duration-ms="3700" started-at="2023-07-24T13:18:39Z" finished-at="2023-07-24T13:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseLoginPopup -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.OpenJustDialHomePage@67784306]" name="getResult" is-config="true" duration-ms="477" started-at="2023-07-24T13:18:43Z" finished-at="2023-07-24T13:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CloseLoginPopup status=SUCCESS method=OpenJustDialHomePage.CloseLoginPopup()[pri:2, instance:com.hackathon.tests.OpenJustDialHomePage@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hackathon.tests.OpenJustDialHomePage@67784306]" name="tearDown" is-config="true" duration-ms="4901" started-at="2023-07-24T13:19:49Z" finished-at="2023-07-24T13:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hackathon.tests.OpenJustDialHomePage -->
+      <class name="com.hackathon.tests.ExploreGymSection">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hackathon.tests.ExploreGymSection@210366b4]" name="init" is-config="true" duration-ms="49" started-at="2023-07-24T13:18:34Z" finished-at="2023-07-24T13:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hackathon.tests.FreeListingPageTest@eec5a4a]" name="init" is-config="true" duration-ms="7" started-at="2023-07-24T13:18:34Z" finished-at="2023-07-24T13:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.hackathon.tests.IdentifyCarWashServices@335eadca]" name="init" is-config="true" duration-ms="1" started-at="2023-07-24T13:18:34Z" finished-at="2023-07-24T13:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="OpenGymSection()[pri:8, instance:com.hackathon.tests.ExploreGymSection@210366b4]" name="OpenGymSection" duration-ms="16286" started-at="2023-07-24T13:19:04Z" finished-at="2023-07-24T13:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGymSection -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.ExploreGymSection@210366b4]" name="getResult" is-config="true" duration-ms="389" started-at="2023-07-24T13:19:20Z" finished-at="2023-07-24T13:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenGymSection status=SUCCESS method=ExploreGymSection.OpenGymSection()[pri:8, instance:com.hackathon.tests.ExploreGymSection@210366b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ListAndStoreAllSubmenuItems()[pri:9, instance:com.hackathon.tests.ExploreGymSection@210366b4]" name="ListAndStoreAllSubmenuItems" duration-ms="2457" started-at="2023-07-24T13:19:21Z" finished-at="2023-07-24T13:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListAndStoreAllSubmenuItems -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.ExploreGymSection@210366b4]" name="getResult" is-config="true" duration-ms="240" started-at="2023-07-24T13:19:23Z" finished-at="2023-07-24T13:19:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ListAndStoreAllSubmenuItems status=SUCCESS method=ExploreGymSection.ListAndStoreAllSubmenuItems()[pri:9, instance:com.hackathon.tests.ExploreGymSection@210366b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="NavigateBackToHomePage(java.lang.String)[pri:10, instance:com.hackathon.tests.ExploreGymSection@210366b4]" name="NavigateBackToHomePage" duration-ms="13252" started-at="2023-07-24T13:19:23Z" finished-at="2023-07-24T13:19:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.justdial.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateBackToHomePage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hackathon.tests.ExploreGymSection@210366b4]" name="getResult" is-config="true" duration-ms="364" started-at="2023-07-24T13:19:37Z" finished-at="2023-07-24T13:19:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateBackToHomePage status=SUCCESS method=ExploreGymSection.NavigateBackToHomePage(java.lang.String)[pri:10, instance:com.hackathon.tests.ExploreGymSection@210366b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.hackathon.tests.ExploreGymSection -->
+    </test> <!-- JustDialTestScenario -->
+  </suite> <!-- Suite -->
+</testng-results>

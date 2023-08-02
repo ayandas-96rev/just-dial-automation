@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="JustDialTestScenario(failed)">
+    <parameter name="baseUrl" value="https://www.justdial.com/"/>
+    <parameter name="location" value="Kolkata"/>
+    <classes>
+      <class name="com.hackathon.tests.ExploreGymSection">
+        <methods>
+          <include name="ListAndStoreAllSubmenuItems"/>
+          <include name="init"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.hackathon.tests.ExploreGymSection -->
+      <class name="com.hackathon.tests.IdentifyCarWashServices">
+        <methods>
+          <include name="init"/>
+          <include name="getResult"/>
+          <include name="IdentifyTopFiveCarWashingService" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hackathon.tests.IdentifyCarWashServices -->
+      <class name="com.hackathon.tests.FreeListingPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.hackathon.tests.FreeListingPageTest -->
+      <class name="com.hackathon.tests.OpenJustDialHomePage">
+        <methods>
+          <include name="CloseLoginPopup"/>
+          <include name="tearDown"/>
+          <include name="initSuite"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.hackathon.tests.OpenJustDialHomePage -->
+    </classes>
+  </test> <!-- JustDialTestScenario(failed) -->
+</suite> <!-- Failed suite [Suite] -->
